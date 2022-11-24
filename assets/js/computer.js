@@ -1,38 +1,38 @@
 const productList = [
     {
-        id: 1,
-        name: 'Second',
-        price: 70,
-        type: 'comp'
-    },
-    {
-        id: 2,
-        name: 'Second',
-        price: 70,
-        type: 'comp'
-    },
-    {
-        id: 3,
-        name: 'Second',
-        price: 70,
-        type: 'comp'
-    },
-    {
-        id: 4,
-        name: 'Second',
-        price: 70,
+        id: 6,
+        name: 'Assemble #1',
+        price: 500,
         type: 'comp'
     },
     {
         id: 5,
-        name: 'Second',
-        price: 70,
+        name: 'Assemble #2',
+        price: 550,
         type: 'comp'
     },
     {
-        id: 6,
-        name: 'Second',
-        price: 70,
+        id: 4,
+        name: 'Assemble #3',
+        price: 700,
+        type: 'comp'
+    },
+    {
+        id: 3,
+        name: 'Assemble #4',
+        price: 900,
+        type: 'comp'
+    },
+    {
+        id: 2,
+        name: 'Assemble #5',
+        price: 1200,
+        type: 'comp'
+    },
+    {
+        id: 1,
+        name: 'Assemble #6',
+        price: 2000,
         type: 'comp'
     }
 
