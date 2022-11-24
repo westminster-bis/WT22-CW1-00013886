@@ -8,16 +8,117 @@
     <title>UPG.uz</title>
     <link rel="stylesheet" href="assets/style/index.css">
     <link rel="stylesheet" href="assets/style/media.css">
+    <script src="assets/js/index.js"></script>
+
 </head>
 <body>
 <header class="header">
-    <div class="navbar-brand">
-        <a href="index.html">
-            <img src="/assets/img/" alt="">
-        </a>
+    <div class="header_content container">
+        <div class="navbar-brand">
+            <a href="index.html">
+                <img src="/assets/img/upgLogo.png" alt="" height="70">
+            </a>
+        </div>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="">About us</a></li>
+                <li><a href="">Order now</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="navbar-end">
+            <a href="">(97) 124-24-24</a>
+            <a href="">(99) 124-24-24</a>
+        </div>
     </div>
-    <div class="navbar-links"></div>
-    <div class="navbar-end"></div>
 </header>
+<div class="main-part container">
+    <aside class="aside">
+        <h2>Catalog</h2>
+        <ul class="catalog-list">
+            <li><a href="">Gaming setups</a></li>
+            <li><a href="">Laptops</a></li>
+            <li><a href="">Devices</a></li>
+            <li><a href="">Accessories</a></li>
+            <li><a href="">Partners</a></li>
+        </ul>
+    </aside>
+    <div class="right-side">
+        <section class="carousel">
+            <div class="carousel-item active" id="1">
+                <img src="assets/img/carousel1.jpg" alt="">
+            </div>
+            <div class="carousel-item disabled" id="2">
+                <img src="assets/img/carousel2.jpg" alt="">
+            </div>
+            <div class="carousel-item disabled" id="3">
+                <img src="assets/img/carousel3.jpg" alt="">
+            </div>
+            <div class="carousel-item disabled" id="4">
+                <img src="assets/img/carousel4.jpg" alt="">
+            </div>
+
+            <ul>
+                <li>
+                    <button onclick="show(0)">Xtrfy</button>
+                </li>
+                <li>
+                    <button onclick="show(1)">Kreslo</button>
+                </li>
+                <li>
+                    <button onclick="show(2)">Call of duty</button>
+                </li>
+                <li>
+                    <button onclick="show(3)">Ram</button>
+                </li>
+            </ul>
+        </section>
+        <section class="all-products" id="all">
+            <h1>All products</h1>
+            <div class="card-list" id="card-list">
+
+            </div>
+        </section>
+    </div>
+</div>
+<footer class="footer">
+    <div class="footer__content container">
+        <div class="footer_links">
+            <div>
+                <h4>Contact us at</h4>
+                <ul>
+                    <li><a href="tel:+998909248761">Phone: +998909248761</a></li>
+                    <li><a href="mailto:kink.uz@gmail.com">Email: kink.uz@gmail.com</a></li>
+                </ul>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="contacts.html">Contacts</a></li>
+
+            </ul>
+            <ul>
+                <li><a href="sale.html">Sale</a></li>
+                <li><a href="clothes.html">Clothes</a></li>
+            </ul>
+            <div>
+                <h4>Kink.uz socials</h4>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    <li><a href=""><i class="fa-brands fa-telegram"></i>Telegram</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+
+    <div class="footer__basement container">
+        <p>This website was created to fulfill Web Technology
+            module’s requirements and does not represent an actual company or service</p>
+    </div>
+</footer>
 </body>
 </html>
+
