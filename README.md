@@ -10,3 +10,6 @@ The web-site consists of 6 pages:  <br>
   6) Gaming setups page - computers.html page with only gaming setups that were set up in UPG <br>
   
 There are 3 directories in the assets folder: img for images, style for css styles, js for JavaScript documents. Fonts were connected by google fonts. 
+
+
+GitHub Pages : https://westminster-bis.github.io/WT22-CW1-00013886/index.html
