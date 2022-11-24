@@ -162,7 +162,7 @@ function showCards() {
                     <div class="card-text">
                         <h4>${item.name}</h4>
                         <p>${item.price} $</p>
-                        <a href="#">Buy</a>
+                        <a href="#" class="btn">Buy</a>
                     </div>
                 </div>
     `
@@ -173,3 +173,4 @@ function showCards() {
 window.onload = function () {
     showCards()
 }
+

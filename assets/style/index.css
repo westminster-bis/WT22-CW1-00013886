@@ -14,6 +14,12 @@ body {
     background-color: #fff;
 }
 
+button {
+    color: #060607;
+    font-family: "PT Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
 
 .header {
     position: fixed;
@@ -26,7 +32,6 @@ body {
 }
 
 .header_content {
-    /*background-color: #0336FF;*/
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +39,12 @@ body {
 
 .navbar-links ul {
     display: flex;
+    gap: 10px;
+}
+
+.navbar-end {
+    display: flex;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -152,15 +163,6 @@ a:hover {
     margin-bottom: 20px;
 }
 
-.card-text a {
-    line-height: 40px;
-    font-weight: 700;
-    border-radius: 7px;
-    color: white;
-    padding: 7px 20px;
-    text-transform: uppercase;
-    background-color: dimgray;
-}
 
 .all-products h1 {
     margin: 20px 0;
@@ -170,6 +172,7 @@ a:hover {
     width: 100%;
     background: black;
     color: white;
+    padding: 40px 0 20px;
 }
 
 .footer__content {
@@ -181,7 +184,7 @@ a:hover {
 }
 
 .footer_links {
-    width: 70%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -193,8 +196,12 @@ a:hover {
     gap: 10px;
 }
 
-.footer a {
+.footer a, .footer p {
     color: white;
+}
+
+.footer a:hover {
+    color: #ff0096;
 }
 
 .footer__basement p {
@@ -205,3 +212,80 @@ a:hover {
     padding: 20px 0 40px !important;
 }
 
+.about-us {
+    padding: 100px 0 50px;
+}
+
+.about-us h1 {
+    margin-bottom: 20px;
+}
+
+.about-img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners, .contacts {
+    padding: 100px 0 50px;
+}
+
+.partner-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.partner {
+    width: 25%;
+}
+
+.partner img {
+    width: 100%;
+}
+
+.order-now {
+    padding: 100px 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 7px;
+    color: white;
+}
+
+.btn:hover {
+    color: #ff0096;
+}
+
+.contact-text span {
+    font-weight: 700;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    max-width: 40%;
+}
+
+.contact-footer {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-footer a {
+    color: #ff0096;
+}
+
+.contacts h1 {
+    margin-bottom: 20px;
+}
