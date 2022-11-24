@@ -29,6 +29,7 @@ button {
     -webkit-box-shadow: 6px 11px 28px 0 rgba(0, 0, 0, 0.68);
     -moz-box-shadow: 6px 11px 28px 0 rgba(0, 0, 0, 0.68);
     box-shadow: 6px 11px 28px 0 rgba(0, 0, 0, 0.68);
+    z-index: 10;
 }
 
 .header_content {
@@ -66,6 +67,20 @@ button {
 .navbar-links ul a {
     font-size: 20px;
     font-weight: 700;
+}
+
+.select-div {
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+select {
+    border: 1px solid black;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-family: "PT Sans", sans-serif;
+    background: #ffffff;
 }
 
 a:hover {
@@ -151,6 +166,15 @@ a:hover {
     border: 1px solid lightgray;
     padding: 0 10px 20px;
     width: 25%;
+    transition: 300ms;
+    background-color: white;
+}
+
+.card:hover {
+    -webkit-box-shadow: 6px 11px 28px 0 rgba(0, 0, 0, 0.68);
+    -moz-box-shadow: 6px 11px 28px 0 rgba(0, 0, 0, 0.68);
+    box-shadow: 6px 11px 28px 0 rgba(0, 0, 0, 0.68);
+    z-index: 1;
 }
 
 .card img {
@@ -212,9 +236,6 @@ a:hover {
     padding: 20px 0 40px !important;
 }
 
-.about-us {
-    padding: 100px 0 50px;
-}
 
 .about-us h1 {
     margin-bottom: 20px;
@@ -225,7 +246,7 @@ a:hover {
     flex-wrap: wrap;
 }
 
-.partners, .contacts {
+.partners, .contacts, .about-us, .computers {
     padding: 100px 0 50px;
 }
 
@@ -289,3 +310,50 @@ a:hover {
 .contacts h1 {
     margin-bottom: 20px;
 }
+
+.computers {
+    display: flex;
+    gap: 20px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 75%;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.right h1 {
+    margin-bottom: 20px;
+}
+
+.filter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filter ul li {
+    padding: 20px 40px;
+    width: 100%;
+    border: 1px solid lightgray;
+    font-family: "PT Sans", sans-serif;
+    font-size: 20px;
+}
+
+
